@@ -43,7 +43,7 @@ function Footer() {
                                         <div className='list-item'>
                                             {/* Filler List Items */}
                                             <li>Customer Support</li>
-                                            <li><div><Link to={"./maiddash"} className='has-text-light'>Employee Dashboard</Link></div></li>
+                                            <li><div><Link to={"./maiddash"} className='has-text-light'>Employee Login</Link></div></li>
                                             <li>Company Policies</li>
                                             <li>Contact Us</li>
                                         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import "./SingleReview.css"
 
 //image
 import ReactionImage from "../assets/reaction/reaction.jpg"
@@ -25,14 +26,14 @@ const SingleReview = (props) => {
   }
 
   return (
-    <div className='columns'>
+      <div className='columns'>
       <div className='column has-text-centered'>
         <img src={ReactionImage} alt="reactions"></img>
       </div>
       <div className='column'>
         {/* init post */}
-        <div className="box init-post">
-          <p className="">
+        <div className="message is-warning init-post">
+          <p className="message-header">
             <span style={{ fontWeight: 700 }} className="text-light">
               {review.username}
             </span>{' '}
@@ -42,7 +43,7 @@ const SingleReview = (props) => {
             <p>{review.reviewText}</p>
           </div>
         </div>
-        {/* init post */}
+        {/* init post end*/}
         {/* reaction form */}
         <div className='box'>
           {Auth.loggedIn() && <ReactionForm reviewId={review._id} />}
@@ -59,10 +60,6 @@ const SingleReview = (props) => {
         </div>
       </div>
     </div>
-
-
-
-
   );
 };
 

@@ -62,7 +62,7 @@ function MaidInfo(props) {
       </div>
       {/* coloum 2 that holds reviews */}
       <div className='column right-side'>
-      <h2 className='title'>My Reviews:</h2>
+      <h2 className='title'>Client Feedback:</h2>
       <div>
       <ReivewList
         reviews={maid.reviews}

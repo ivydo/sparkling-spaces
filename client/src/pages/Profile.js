@@ -53,7 +53,7 @@ const Profile = (props) => {
                       id="date"
                     />
                   </p>
-                  <button className="button is-link is-outlined is-rounded">
+                  <button className="button is-danger is-rounded">
                     Submit
                   </button>
                 </div>
@@ -85,13 +85,13 @@ const Profile = (props) => {
         <hr />
         {/* maid rating container */}
         <div className='maid-rating-container'>
-          <div className="title">
-            <h1>
+          <div>
+            <h1 className="title">
               Previous Reviews
               {/* <img src={ReviewImage} alt="review logo" className='image is-24x24'></img> */}
             </h1>
           </div>
-          <div className="review-list">
+          <div className="review-list section is-small">
             <ReviewList 
               reviews={user.reviews}
             />

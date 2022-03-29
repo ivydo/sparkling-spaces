@@ -10,12 +10,12 @@ const ReivewList = ({ reviews, title }) => {
 
   console.log({reviews})
   return (
-    <div>
+    <div className='reviews-list-container'>
       <h3>{title}</h3>
       {reviews &&
         reviews.map(review => (
-          <div key={review._id} className="card beans">
-            <p className="card-header">
+          <div key={review._id} className="message is-warning">
+            <p className="message-header">
               <Link
                 to={`/profile/${review.username}`}
                 style={{ fontWeight: 700 }}

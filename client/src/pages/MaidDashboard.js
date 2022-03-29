@@ -89,6 +89,8 @@ const MaidDashboard = () => {
                 <div className='title is-2'>Client Feedback</div>
                 <div className="container m-3">
                     <div className="notification has-background-primary">
+                    <button className="delete"></button>
+
                         NEW: Sally did a wonderful job and went above and beyond. Thank you Sparkling Spaces for a super clean home! (Johnny C.)
                     </div>
                     <div className="notification has-background-primary-light">
@@ -108,13 +110,13 @@ const MaidDashboard = () => {
             <div className='section'>
                 <div className='columns is-vcentered'>
                     <div className='column is-one-third has-text-centered'>
-                        <button className='button is-primary is-rounded'>Contact Supervisor</button>
+                        <button className='button is-link is-rounded'>Contact Supervisor</button>
                     </div>
                     <div className='column is-one-third has-text-centered'>
-                        <button className='button is-link is-rounded'>Rating Forgiveness Request</button>
+                        <button className='button is-danger is-rounded'>Rating Forgiveness Request</button>
                     </div>
                     <div className='column is-one-third has-text-centered'>
-                        <button className='button is-danger is-rounded'>Request PTO</button>
+                        <button className='button is-info is-rounded'>Request PTO</button>
                     </div>
                 </div>
             </div>
