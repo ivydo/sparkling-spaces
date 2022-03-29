@@ -12,7 +12,7 @@ const ReivewList = ({ reviews, title }) => {
       <h3>{title}</h3>
       {reviews &&
         reviews.map(review => (
-          <div key={review._id} className="card mb-3">
+          <div key={review._id} className="card ">
             <p className="card-header">
               <Link
                 to={`/profile/${review.username}`}
