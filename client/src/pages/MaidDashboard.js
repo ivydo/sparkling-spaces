@@ -1,15 +1,18 @@
 import React from 'react';
 
+import "./MaidDashboard.css"
+
 import DashboardImage from '../assets/dashboard/dashboard.png';
+import Stars from "../assets/dashboard/stars.png"
 
 const MaidDashboard = () => {
 
 	return (
             <div id="maid-dashboard">
                 <div>
-                    <figure className="image is-4x3 is-inline-block">
+                    <div className="">
                         <img src={DashboardImage} alt="dashboard header"/>
-                    </figure>
+                    </div>
                 </div>
                 <div className='section'>
                     <div className='title is-2'>Scheduled Cleanings</div>
@@ -31,8 +34,8 @@ const MaidDashboard = () => {
                                     </div>
                                 </div>
                                 <footer className="card-footer">
-                                    <a href="#" className="card-footer-item">Contact</a>
-                                    <a href="#" className="card-footer-item has-text-danger">Cancel</a>
+                                    <a href="/nomatch" className="card-footer-item">Contact</a>
+                                    <a href="/nomatch" className="card-footer-item has-text-danger">Cancel</a>
                                 </footer>
                             </div>
                         </div>
@@ -53,8 +56,8 @@ const MaidDashboard = () => {
                                     </div>
                                 </div>
                                 <footer className="card-footer">
-                                <a href="#" className="card-footer-item">Contact</a>
-                                    <a href="#" className="card-footer-item has-text-danger">Cancel</a>
+                                <a href="/nomatch" className="card-footer-item">Contact</a>
+                                    <a href="/nomatch" className="card-footer-item has-text-danger">Cancel</a>
                                 </footer>
                             </div>
                         </div>
@@ -75,17 +78,17 @@ const MaidDashboard = () => {
                                     </div>
                                 </div>
                                 <footer className="card-footer">
-                                <a href="#" className="card-footer-item">Contact</a>
-                                    <a href="#" className="card-footer-item has-text-danger">Cancel</a>
+                                <a href="/nomatch" className="card-footer-item">Contact</a>
+                                    <a href="/nomatch" className="card-footer-item has-text-danger">Cancel</a>
                                 </footer>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className='section has-background-info-light'>
+                <div className='section'>
                     <div className='title is-2'>Client Feedback</div>
                     <div className="container m-3">
-                        <div className="notification has-background-white">
+                        <div className="notification has-background-primary">
                             NEW: Sally did a wonderful job and went above and beyond. Thank you Sparkling Spaces for a super clean home! (Johnny C.)
                         </div>
                         <div className="notification has-background-primary-light">
@@ -99,19 +102,19 @@ const MaidDashboard = () => {
                 <div className='section'>
                     <div className='title is-2'>My Rating</div><br/>
                     <div className='container has-text-centered'>
-                    <div className='title is-3'>Overall: 4.5/5 Stars</div>
+                        <img src={Stars} alt="star rating" className='stars'/>
                     </div>
                 </div>
                 <div className='section'>
                     <div className='columns is-vcentered'>
                         <div className='column is-one-third has-text-centered'>
-                            <button className='button is-primary is-outlined is-rounded'>Contact Supervisor</button>
+                            <button className='button is-primary is-rounded'>Contact Supervisor</button>
                         </div>
                         <div className='column is-one-third has-text-centered'>
-                            <button className='button is-link is-outlined is-rounded'>Rating Forgiveness Request</button>
+                            <button className='button is-link is-rounded'>Rating Forgiveness Request</button>
                         </div>
                         <div className='column is-one-third has-text-centered'>
-                            <button className='button is-danger is-outlined is-rounded'>Request PTO</button>
+                            <button className='button is-danger is-rounded'>Request PTO</button>
                         </div>
                     </div>
                 </div>
