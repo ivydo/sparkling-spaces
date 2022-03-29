@@ -51,7 +51,6 @@ const ReviewForm = ({maidUsername}) => {
       await addReview({
         variables: { reviewText, maidUsername } 
             });
-
       // clear form value
       setText('');
       setCharacterCount(0);
