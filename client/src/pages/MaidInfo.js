@@ -50,27 +50,25 @@ function MaidInfo(props) {
                   </div>
                 </div>
                 <div className="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris.
+                  I'm <strong>{maid.name}</strong> and I treat every home as if it were my own. My belief is "Cleaning and organizing is a practice, not a project."
                 </div>
               </div>
             </div>
           </section>
-        </div>
+          {/* Review Form */}
+          <div className='review-form-container'><ReviewForm/>
+          </div>        
+          </div>
       </div>
       {/* coloum 2 that holds reviews */}
-      <div className='column'>
-        <div className='review-form-container'><ReviewForm/>
-          </div>
-      <h2>My Reviews:</h2>
+      <div className='column right-side'>
+      <h2 className='title'>My Reviews:</h2>
+      <div>
       <ReivewList
         reviews={maid.reviews}
-      /></div>
-      {/* <ReviewForm/>
-      <h2>My Reviews:</h2>
-      <ReivewList
-        reviews={maid.reviews}
-      /> */}
+      />
+      </div>
+      </div>
     </div>
   )
 }

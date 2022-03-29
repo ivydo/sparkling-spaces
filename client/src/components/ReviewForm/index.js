@@ -77,7 +77,7 @@ const ReviewForm = () => {
           {error && <span className=""> Something went wrong...</span>}
         </p>
         <div>
-          <button className="button control is-link is-outlined is-rounded" type="submit">
+          <button className="button control is-success is-rounded" type="submit">
             Submit
           </button>
         </div>

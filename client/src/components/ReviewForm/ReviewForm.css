@@ -1,12 +1,10 @@
 .review-container {
     width: 50%;
-    margin-top: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .review-input {
-    height: 200px;
+    height: 150px;
 }
 
 .label-css {
