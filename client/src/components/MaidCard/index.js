@@ -14,8 +14,8 @@ const MaidCard = ({ maids }) => {
         maids.slice(0, 3).map(maid => (
           <div key={maid._id} className="card mb-3">
             <div className='card-image'>
-              <div className='image is-4by3'>
-                <img src={Maid1} alt="maid" />;
+              <div className=''>
+                <img src={Maid1} alt="maid" />
               </div>
             </div>
             <div className="card-content">

@@ -20,14 +20,14 @@ const Profile = (props) => {
   console.log("LOGIN STATUS " + loggedIn);
   if (!loggedIn) { navigate("/login") }
 
-  const { loading, data } = useQuery(QUERY_ME_BASIC);
+  const { data } = useQuery(QUERY_ME_BASIC);
   const user = data?.me || [];
 
   return (
     <main>
-      <div className='page-container-profile has-background-white-bis '>
-        <section className="hero is-small is-light">
-          <div className="hero-body">
+      <div className='page-container-profile'>
+        <section className="">
+          <div className="">
             <img src={DashboardImage} alt="dashboard logo"></img>
           </div>
         </section>

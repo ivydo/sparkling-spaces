@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link } from 'react-router-dom';
-import '../index.css';
+import "./Home.css"
 
 // Image Imports!
 import HeaderImg from '../assets/header/clean.jpg';
@@ -36,28 +36,28 @@ export default function Home() {
 
     const About = () => {
         return (
-            <div id="about" className="section is-medium has-background-white has-text-centered">
+            <div id="about" className="section is-medium has-text-centered">
                 <div className='title is-2 has-text-centered'>
                 Sparkling Spaces provides residential <br/> cleaning services to the Orlando, FL area!
                 </div>
                 <div className="columns is-mobile is-vcentered">
                     <div className='column is-one-third is-centered has-text-centered'>
                         <figure className="image is-128x128 is-inline-block m-4">
-                            <img src={About1} alt="cleaning supplies"/>
+                            <img src={About1} alt="cleaning supplies" />
                         </figure><br/>
                         <div className='title is-4 m-3'>We Supply Everything</div><br/>
                         <div className='subtitle is-5'>No hassle or extra charges</div>
                     </div>
                     <div className='column is-one-third is-centered has-text-centered'>
                         <figure className="image is-128x128 is-inline-block m-4">
-                            <img src={About2} alt="people mopping"/>
+                            <img src={About2} alt="people mopping" />
                         </figure><br/>
                         <div className='title is-4 m-3'>Reliable Staff</div><br/>
                         <div className='subtitle is-5'>Our maids put your home first</div>
                     </div>
                     <div className='column is-one-third is-centered has-text-centered'>
                         <figure className="image is-128x128 is-inline-block m-4">
-                            <img src={About3} alt="three stars"/>
+                            <img src={About3} alt="three stars" />
                         </figure><br/>
                         <div className='title is-4 m-3'>Best Rated in Orlando</div><br/>
                         <div className='subtitle is-5'>Featured in Good Homes 2020</div>
@@ -69,7 +69,7 @@ export default function Home() {
 
     const Rates = () => {
         return (
-            <div id="rates" className="section is-medium has-text-centered">
+            <div id="rates" className="section is-small has-text-centered">
                 <div className='title is-2 has-text-centered p-3 m-3'>Rates</div><br/>
                 <div className='subtitle is-5 has-text-centered m-3'>
                 Price is an accurate estimate based on standard scope of work. Upon booking, a maid will work with you <br/>
@@ -98,22 +98,22 @@ export default function Home() {
                 </div>
                 <div className="columns is-mobile is-vcentered">
                     <div className='column is-one-third is-centered has-text-centered'>
-                        <figure className="image is-5x4 is-inline-block m-3">
-                            <img src={Testimonial1} alt="cleaning supplies"/>
+                        <figure className="is-inline-block m-3">
+                            <img src={Testimonial1} alt="cleaning supplies"className='about-height'/>
                         </figure>
                         <div className='subtitle is-5'>My living room has never been this clean!</div>
                         <div className='title is-4'>John Smith</div>
                     </div>
                     <div className='column is-one-third is-centered has-text-centered'>
-                        <figure className="image is-5x4 is-inline-block m-3">
-                            <img src={Testimonial2} alt="people mopping"/>
+                        <figure className="is-inline-block m-3">
+                            <img src={Testimonial2} alt="people mopping" className='about-height'/>
                         </figure>
                         <div className='subtitle is-5'>My bathroom has never been this clean!</div>
                         <div className='title is-4'>Susie Q</div>
                     </div>
                     <div className='column is-one-third is-centered has-text-centered'>
-                        <figure className="image is-5x4 is-inline-block m-3">
-                            <img src={Testimonial3} alt="three stars"/>
+                        <figure className="is-inline-block m-3">
+                            <img src={Testimonial3} alt="three stars" className='about-height'/>
                         </figure>
                         <div className='subtitle is-5'>My bedroom has never been this clean!</div>
                         <div className='title is-4'>John Smith</div>
