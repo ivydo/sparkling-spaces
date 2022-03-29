@@ -72,18 +72,18 @@ The deployed application can be used at [Heroku](https://pacific-sea-53881.herok
 You can also use `npm start` while in the client folder to run items as well as in the server folder you can use `npm run watch`. To build for production ensure you run `npm run build` so that it produces a build for deployment. 
 
 ## Images
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Screenshot](https://github.com/ivydo/sparkling-spaces/blob/main/client/src/assets/screenshots/screenshot1.png)
+![Screenshot](https://github.com/ivydo/sparkling-spaces/blob/main/client/src/assets/screenshots/screenshot2.png)
+![Screenshot](https://github.com/ivydo/sparkling-spaces/blob/main/client/src/assets/screenshots/screenshot3.png)
+![Screenshot](https://github.com/ivydo/sparkling-spaces/blob/main/client/src/assets/screenshots/screenshot4.png)
 
 ## License Details 
 This project is MIT licensed.
 
 
 ## Collaborators
+Ivy Do [GitHub Link](https://github.com/ivydo)  
 Alexis El Amrani [GitHub Link](https://github.com/alexisn84)  
 Shawna Boucher [GitHub Link](https://github.com/sboucher2011)  
 Mark Dale [GitHub Link](https://github.com/msdale)  
-Ivy Do [GitHub Link](https://github.com/ivydo)  
 Patty Manecci [GitHub Link](https://github.com/PManecci)
