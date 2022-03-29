@@ -29,7 +29,7 @@ function MaidInfo(props) {
             <div className="card">
               <header className="card-header ">
                 <p className="card-header-title">
-                  More About Me
+                  About Me
                 </p>
               </header>
               <div className="card-image">
