@@ -18,7 +18,7 @@ function MaidInfo(props) {
   });
 
   const maid = data?.maid || {};
-  
+
   console.log(maid)
   return (
     <div className='columns'>
@@ -56,18 +56,22 @@ function MaidInfo(props) {
             </div>
           </section>
           {/* Review Form */}
-          <div className='review-form-container'><ReviewForm/>
-          </div>        
+          {/* Review Form */}
+          <div className='review-box notification'><ReviewForm />
           </div>
+          {/* Review Form */}
+          {/* Review Form */}
+
+        </div>
       </div>
       {/* coloum 2 that holds reviews */}
       <div className='column right-side'>
-      <h2 className='title'>Client Feedback:</h2>
-      <div>
-      <ReivewList
-        reviews={maid.reviews}
-      />
-      </div>
+        <h2 className='title'>Client Feedback:</h2>
+        <div>
+          <ReivewList
+            reviews={maid.reviews}
+          />
+        </div>
       </div>
     </div>
   )
