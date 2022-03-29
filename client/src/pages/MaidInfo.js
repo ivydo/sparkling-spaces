@@ -57,7 +57,7 @@ function MaidInfo(props) {
           </section>
           {/* Review Form */}
           {/* Review Form */}
-          <div className='review-box notification'><ReviewForm />
+          <div className='review-box notification'><ReviewForm maidUsername={maid.maid_username}/>
           </div>
           {/* Review Form */}
           {/* Review Form */}

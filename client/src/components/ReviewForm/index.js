@@ -7,7 +7,7 @@ import "./ReviewForm.css"
 //images
 // import ReviewImage from "../../assets/profile/review.jpg"
 
-const ReviewForm = () => {
+const ReviewForm = ({maidUsername}) => {
   const [reviewText, setText] = useState('');
   const [characterCount, setCharacterCount] = useState(0);
   const [addReview, { error }] = useMutation(ADD_REVIEW, {
@@ -49,8 +49,8 @@ const ReviewForm = () => {
     try {
       // add review to database
       await addReview({
-        variables: { reviewText }
-      });
+        variables: { reviewText, maidUsername } 
+            });
 
       // clear form value
       setText('');
