@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import "./ReviewList.css"
+
 const ReivewList = ({ reviews, title }) => {
   if (!reviews || !reviews?.length) {
     return <h3>No Reviews Yet</h3>;
@@ -12,7 +14,7 @@ const ReivewList = ({ reviews, title }) => {
       <h3>{title}</h3>
       {reviews &&
         reviews.map(review => (
-          <div key={review._id} className="card ">
+          <div key={review._id} className="card beans">
             <p className="card-header">
               <Link
                 to={`/profile/${review.username}`}

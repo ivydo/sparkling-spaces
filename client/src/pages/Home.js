@@ -24,7 +24,7 @@ export default function Home() {
                         <div className="subtitile is-5 p-2">
                             Your home will be cleaned to your higest expectations by trained professionals at surprisingly affordable rates. Your home and your priorities. We take pride in providing cleaning services that match your needs and your budget. It is time to discover the magic of Sparkling Spaces.
                         </div>
-                        <Link to='login'><button className="button is-link is-rounded is-outlined">Login to Schedule</button></Link>
+                        <Link to='login'><button className="button is-warning is-rounded ">Login to Schedule</button></Link>
                     </div>
                     <div className="column is-two-thirds is-centered">
                         <figure className="image is-5by3 m-6">
