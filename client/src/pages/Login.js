@@ -46,9 +46,9 @@ const Login = (props) => {
         <div className="columns is-mobile is-vcentered">
 
           <div className="column is-half">
-            <figure className="image is-4x3 is-inline-block">
+            <div className="">
               <img src={LoginImage} alt="cleaning the kitchen"/>
-            </figure>
+            </div>
           </div>
 
           <div id='login-form' className='column is-half'>
@@ -83,7 +83,7 @@ const Login = (props) => {
               </div>
               <div className='field'>
                 <p className='control'>
-                  <button className="button is-link is-rounded is-outlined" type="submit">
+                  <button className="button is-danger is-rounded" type="submit">
                     Login
                   </button>
                 </p>
