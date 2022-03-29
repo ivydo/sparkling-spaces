@@ -57,7 +57,7 @@ function MaidInfo(props) {
           </section>
           {/* Review Form */}
           {/* Review Form */}
-          <div className='review-box notification'><ReviewForm maidUsername={maid.maid_username}/>
+          <div className='review-box notification is-primary is-light'><ReviewForm maidUsername={maid.maid_username}/>
           </div>
           {/* Review Form */}
           {/* Review Form */}
@@ -67,7 +67,7 @@ function MaidInfo(props) {
       {/* coloum 2 that holds reviews */}
       <div className='column right-side'>
         <h2 className='title'>Client Feedback:</h2>
-        <div>
+        <div className="overflow-y-content">
           <ReivewList
             reviews={maid.reviews}
           />
