@@ -64,10 +64,10 @@ const ReviewForm = () => {
     <div className='review-container'>
       <h1 className='title title-css'>Leave Some Love</h1>
       <form className="field" onSubmit={handleFormSubmit}>
-        <div className='field-input'>
+        <div className='control'>
           <label className="label label-css">Here's what I thought... </label>
-          <div className="control">
-            <input className="input is-link review-input" type="text" placeholder="Everything was great!" onChange={handleChange} value={reviewText}>
+          <div className="">
+            <input className="textarea is-link" type="text" placeholder="Everything was great!" onChange={handleChange} value={reviewText}>
             </input>
           </div>
         </div>

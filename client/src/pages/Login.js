@@ -56,7 +56,7 @@ const Login = (props) => {
 
             <form onSubmit={handleFormSubmit}>
               <div className='field mt-4'>
-                <p className='control'>
+                <div className='control'>
                   <input
                     className="input is-link is-rounded"
                     placeholder="Your email"
@@ -66,7 +66,7 @@ const Login = (props) => {
                     value={formState.email}
                     onChange={handleChange}
                   />
-                </p>
+                </div>
               </div>
               <div className='field'>
                 <p className='control'>
