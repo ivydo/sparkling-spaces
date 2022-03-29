@@ -30,7 +30,10 @@ const MaidCard = ({ maids }) => {
               <div> Clean Spaces, Clean Mind.
               </div>
             </div>
-            
+            <div className='buttons is-right maid-buttons'>
+              <a href={`/maidinfo/${maid.maid_username}`} className='button is-danger'>Learn More</a>
+              <div className='button is-warning '>Request Me</div>
+            </div>
           </div>
         ))}
     </div>
