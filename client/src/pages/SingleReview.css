@@ -2,3 +2,11 @@
     margin-top: 20px;
     margin-bottom: 100px;
 }
+
+.full-size-container {
+    height: 70vh;
+}
+
+.margin-top-s {
+    margin-top: 30px;
+}

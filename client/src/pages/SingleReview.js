@@ -11,6 +11,7 @@ import { useQuery } from '@apollo/client';
 import { QUERY_REVIEW } from '../utils/queries';
 import Auth from '../utils/auth';
 import ReactionForm from '../components/ReactionForm';
+import { Container } from '@material-ui/core';
 
 const SingleReview = (props) => {
   const { id: reviewId } = useParams();
@@ -26,7 +27,8 @@ const SingleReview = (props) => {
   }
 
   return (
-      <div className='columns'>
+    <div className="full-size-container">
+      <div className='columns margin-top-s'>
       <div className='column has-text-centered'>
         <img src={ReactionImage} alt="reactions"></img>
       </div>
@@ -59,6 +61,7 @@ const SingleReview = (props) => {
           {/* reaction post end */}
         </div>
       </div>
+    </div>
     </div>
   );
 };
