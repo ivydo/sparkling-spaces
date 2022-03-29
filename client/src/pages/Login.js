@@ -47,12 +47,12 @@ const Login = (props) => {
 
           <div className="column is-half">
             <div className="">
-              <img src={LoginImage} alt="cleaning the kitchen"/>
+              <img src={LoginImage} alt="cleaning the kitchen" />
             </div>
           </div>
 
           <div id='login-form' className='column is-half'>
-            <div className='title is-1'>Welcome Back!</div><br/>
+            <div className='title is-1'>Welcome Back!</div><br />
 
             <form onSubmit={handleFormSubmit}>
               <div className='field mt-4'>
@@ -65,7 +65,7 @@ const Login = (props) => {
                     id="email"
                     value={formState.email}
                     onChange={handleChange}
-                />
+                  />
                 </p>
               </div>
               <div className='field'>
@@ -89,8 +89,8 @@ const Login = (props) => {
                 </p>
                 <a href="/signup" className="has-text-link is-underlined">No account? Sign up today!</a>
               </div>
-          </form>
-            {error && <div>Login failed</div>}   
+            </form>
+            {error && <div>Login failed</div>}
           </div>
         </div>
       </div>

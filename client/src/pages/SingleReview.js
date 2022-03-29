@@ -26,7 +26,7 @@ const SingleReview = (props) => {
 
   return (
     <div className='columns'>
-      <div className='column'>
+      <div className='column has-text-centered'>
         <img src={ReactionImage} alt="reactions"></img>
       </div>
       <div className='column'>
