@@ -13,7 +13,7 @@ const ReivewList = ({ reviews, title }) => {
     <div className='reviews-list-container'>
       <h3>{title}</h3>
       {reviews &&
-        reviews.map(review => (
+        reviews.slice(0, 7).reverse().map(review => (
           <div key={review._id} className="message is-warning">
             <p className="message-header">
               <Link
